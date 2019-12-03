@@ -1,11 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
-"""
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), December 03, 2019, at 13:26
-If you publish work using this script please cite the relevant PsychoPy publications
-  Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
-  Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
-"""
+
+##author:Alex Samson 
+#This a short version of the Stroop experiment. 
+#The experiement has no time constraints whereby the participant has as much time to answer. 
+#The participant is required to hit the key on the keyboard that corresponds to the first letter of the colour that the physical word is
+#in NOT the name of the colour that is printed. 
+#The participant can only hit one of the four keys to proceed to the next round (either: r,g,b,y corresponding to red, green, blue, and yellow).
+#This experiment is designed for geriatrics because they are able to move at their own pace. 
 
 from __future__ import division  # so that 1/3=0.333 instead of 1/3=0
 from psychopy import visual, core, data, event, logging, sound, gui
